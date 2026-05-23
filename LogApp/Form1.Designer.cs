@@ -53,72 +53,72 @@
             // 
             this.dgvNotes.AllowUserToAddRows = false;
             this.dgvNotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNotes.Location = new System.Drawing.Point(324, 92);
+            this.dgvNotes.Location = new System.Drawing.Point(32, 130);
             this.dgvNotes.MultiSelect = false;
             this.dgvNotes.Name = "dgvNotes";
             this.dgvNotes.RowHeadersWidth = 51;
             this.dgvNotes.RowTemplate.Height = 24;
             this.dgvNotes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvNotes.Size = new System.Drawing.Size(263, 186);
+            this.dgvNotes.Size = new System.Drawing.Size(666, 186);
             this.dgvNotes.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(36, 37);
+            this.btnAdd.Location = new System.Drawing.Point(12, 362);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(113, 23);
+            this.btnAdd.Size = new System.Drawing.Size(113, 39);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Добавить ";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(165, 37);
+            this.btnEdit.Location = new System.Drawing.Point(131, 362);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(121, 23);
+            this.btnEdit.Size = new System.Drawing.Size(121, 39);
             this.btnEdit.TabIndex = 2;
             this.btnEdit.Text = "Редактировать";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(296, 37);
+            this.btnDelete.Location = new System.Drawing.Point(258, 362);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(88, 23);
+            this.btnDelete.Size = new System.Drawing.Size(88, 39);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Удалить";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
             // btnDeleteCompleted
             // 
-            this.btnDeleteCompleted.Location = new System.Drawing.Point(390, 37);
+            this.btnDeleteCompleted.Location = new System.Drawing.Point(352, 362);
             this.btnDeleteCompleted.Name = "btnDeleteCompleted";
-            this.btnDeleteCompleted.Size = new System.Drawing.Size(241, 23);
+            this.btnDeleteCompleted.Size = new System.Drawing.Size(216, 39);
             this.btnDeleteCompleted.TabIndex = 4;
             this.btnDeleteCompleted.Text = "Очистить все выполненное";
             this.btnDeleteCompleted.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(637, 37);
+            this.btnRefresh.Location = new System.Drawing.Point(574, 362);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(99, 23);
+            this.btnRefresh.Size = new System.Drawing.Size(124, 39);
             this.btnRefresh.TabIndex = 5;
-            this.btnRefresh.Text = "Очистить";
+            this.btnRefresh.Text = "Перезагрузить";
             this.btnRefresh.UseVisualStyleBackColor = true;
             // 
             // cmbPriorityFilter
             // 
             this.cmbPriorityFilter.FormattingEnabled = true;
-            this.cmbPriorityFilter.Location = new System.Drawing.Point(128, 82);
+            this.cmbPriorityFilter.Location = new System.Drawing.Point(117, 87);
             this.cmbPriorityFilter.Name = "cmbPriorityFilter";
-            this.cmbPriorityFilter.Size = new System.Drawing.Size(121, 24);
+            this.cmbPriorityFilter.Size = new System.Drawing.Size(173, 24);
             this.cmbPriorityFilter.TabIndex = 6;
             // 
             // chkShowIncomplete
             // 
             this.chkShowIncomplete.AutoSize = true;
-            this.chkShowIncomplete.Location = new System.Drawing.Point(36, 190);
+            this.chkShowIncomplete.Location = new System.Drawing.Point(32, 322);
             this.chkShowIncomplete.Name = "chkShowIncomplete";
             this.chkShowIncomplete.Size = new System.Drawing.Size(250, 20);
             this.chkShowIncomplete.TabIndex = 7;
@@ -127,15 +127,15 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(128, 123);
+            this.txtSearch.Location = new System.Drawing.Point(117, 37);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(121, 22);
+            this.txtSearch.Size = new System.Drawing.Size(173, 22);
             this.txtSearch.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 82);
+            this.label1.Location = new System.Drawing.Point(29, 90);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 16);
             this.label1.TabIndex = 9;
@@ -144,7 +144,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 129);
+            this.label2.Location = new System.Drawing.Point(29, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 10;
@@ -159,7 +159,7 @@
             this.lblFilePath});
             this.statusStrip1.Location = new System.Drawing.Point(0, 424);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(723, 26);
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -190,7 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(723, 450);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

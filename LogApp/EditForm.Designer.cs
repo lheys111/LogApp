@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 119);
+            this.label1.Location = new System.Drawing.Point(74, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 16);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(100, 178);
+            this.label2.Location = new System.Drawing.Point(74, 170);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 16);
             this.label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(48, 396);
+            this.label3.Location = new System.Drawing.Point(221, 400);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 16);
             this.label3.TabIndex = 2;
@@ -71,7 +71,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(100, 222);
+            this.label4.Location = new System.Drawing.Point(74, 222);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 16);
             this.label4.TabIndex = 3;
@@ -79,14 +79,14 @@
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(211, 116);
+            this.txtTitle.Location = new System.Drawing.Point(211, 113);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(200, 22);
+            this.txtTitle.Size = new System.Drawing.Size(413, 22);
             this.txtTitle.TabIndex = 4;
             // 
             // dtpReminderTime
             // 
-            this.dtpReminderTime.Location = new System.Drawing.Point(172, 391);
+            this.dtpReminderTime.Location = new System.Drawing.Point(424, 395);
             this.dtpReminderTime.Name = "dtpReminderTime";
             this.dtpReminderTime.Size = new System.Drawing.Size(200, 22);
             this.dtpReminderTime.TabIndex = 5;
@@ -96,13 +96,13 @@
             this.cmbPriority.FormattingEnabled = true;
             this.cmbPriority.Location = new System.Drawing.Point(211, 170);
             this.cmbPriority.Name = "cmbPriority";
-            this.cmbPriority.Size = new System.Drawing.Size(200, 24);
+            this.cmbPriority.Size = new System.Drawing.Size(413, 24);
             this.cmbPriority.TabIndex = 6;
             // 
             // chkCompleted
             // 
             this.chkCompleted.AutoSize = true;
-            this.chkCompleted.Location = new System.Drawing.Point(471, 323);
+            this.chkCompleted.Location = new System.Drawing.Point(211, 350);
             this.chkCompleted.Name = "chkCompleted";
             this.chkCompleted.Size = new System.Drawing.Size(106, 20);
             this.chkCompleted.TabIndex = 7;
@@ -111,18 +111,18 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(418, 389);
+            this.btnSave.Location = new System.Drawing.Point(211, 284);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(100, 23);
+            this.btnSave.Size = new System.Drawing.Size(137, 39);
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Сохранить";
             this.btnSave.UseVisualStyleBackColor = true;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(545, 389);
+            this.btnCancel.Location = new System.Drawing.Point(365, 284);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(135, 39);
             this.btnCancel.TabIndex = 10;
             this.btnCancel.Text = "Отмена";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@
             // 
             this.rtbDescription.Location = new System.Drawing.Point(211, 222);
             this.rtbDescription.Name = "rtbDescription";
-            this.rtbDescription.Size = new System.Drawing.Size(219, 22);
+            this.rtbDescription.Size = new System.Drawing.Size(413, 22);
             this.rtbDescription.TabIndex = 11;
             // 
             // EditForm
